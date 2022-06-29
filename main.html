@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="structure2.css">
+    <script src="https://kit.fontawesome.com/8924a45e02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>structure2</title>
+</head>
+<body>
+    <header>
+        <button class="continent" onclick="display('list1')">SouthAmerica</button>
+            <ul id="list1" style="display: none">
+                <li><a href="./brazil.html">Brazil</a></li>
+            </ul>
+        <button class="continent" onclick="display('list2')">NorthAmerica</button>
+            <ul id="list2" style="display: none">
+                <li><a href="./canada.html">Canada</a></li>
+            </ul>
+        <button class="continent" onclick="display('list3')">Europe</button>
+            <ul id="list3" style="display: none">
+                <li><a href="./Paris.html">France</a></li>
+                <li>Switzerland</li>
+            </ul>
+        <button class="continent" onclick="display('list4')">Africa</button>
+            <ul id="list4" style="display: none">
+                <li></li>
+            </ul>
+        <button class="continent" onclick="display('list5')">Asia</button>
+            <ul id="list5" style="display: none">
+                <li><a href="./korea.html">Korea</a></li>
+            </ul>
+        <button class="continent" onclick="display('list6')">Oceania</button>
+            <ul id="list6" style="display: none"></ul>
+    </header>
+    <script src="./header.js"></script>
+    <div class="title">
+        <p><span>세계 각국으로 여행</span> 숙박정보를 확인하세요</p>
+    </div>
+    <div class="main">
+        <div class="photo">
+            <div>
+                <div>Canada</div>
+                <div>Yellowknife</div>
+                <div>llalal</div>
+                <button>예약하기</button>
+                <button> > 더 알아보기</button>
+            </div>
+            <img src="https://d2ur7st6jjikze.cloudfront.net/offer_photos/8768/51304_medium_1466743911.jpg?1466743911" alt="">
+        </div>
+        <!-- container: 각 나라 설명 풍경 사진 -->
+        <div class="photo">
+            <img src="https://d2ur7st6jjikze.cloudfront.net/offer_photos/70973/441382_large_1576024612.jpg?1576024612" alt="">
+            <div>
+                <div>Canada</div>
+                <div>Yellowknife</div>
+                <div>3</div>
+                <button>예약하기</button>
+                <button> > 더 알아보기</button>
+            </div>
+        </div>
+        <div class="photo">
+            <div>
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <button>예약하기</button>
+                <button> > 더 알아보기</button>
+            </div>
+            <img src="https://d2ur7st6jjikze.cloudfront.net/offer_photos/35241/219633_large_1637554062.jpg?1637554062" alt="">
+        </div>
+        <div class="photo">
+            <img src="https://d2ur7st6jjikze.cloudfront.net/offer_photos/26261/161720_medium_1525757908.jpg?1525757908" alt="">
+            <div>
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <button>예약하기</button>
+                <button> > 더 알아보기</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-left">
+            <div>개인정보처리방침</div>
+            <div>이용약관</div>
+            <div>사이트맵</div>
+            <div>환불 정책</div>
+            <div>회사 세부정보</div>
+        </div>
+        <div class="footer-right">
+            <div>한국어(KR) KRW</div>
+            <div class="SNS">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
