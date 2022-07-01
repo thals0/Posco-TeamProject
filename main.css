@@ -7,15 +7,34 @@ a:visited{text-decoration: none;}
 /* common */
 
 header {
-    display: flex;
     width: 100%;
     height: 70px;
     background-color: #333;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* position: fixed; */
+}
+.m-3 i{
+    font-size: 20px;
 }
 
-header ul {
+.dropdown {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+}
+
+.dropdown button {
+    color: white;
+    background-color: #333;
+    border: none;
+    /* margin-top: 15px; */
+    margin-right: 10px;
+}
+
+.dropdown button:hover {
+    background-color: #4F5458;
 }
 
 .continent {
@@ -24,7 +43,7 @@ header ul {
     background-color: #333;
     color: white;
     padding: 5px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     justify-content: space-around;
     border-radius: 5px;
 }
@@ -70,18 +89,27 @@ header ul li {
     margin: 8px;
 }
 .photo>div *:nth-child(4){
+    width: 120px;
     background-color: #0171E3;
     border: 1px solid #0171E3;
     border-radius: 10px;
     color: white;
     font-size: 13px;
-    margin: 10px 0;
+    transition: 0.3s;
+    display: block;
+    margin: 10px auto;
 }
 .photo>div *:nth-child(5){
     background-color: white;
     border: none;
     color: #0171E3;
+    font-size: small;
 }
+.photo>div *:nth-child(4):hover{
+    background-color: #afcdea;
+    border: 1px solid #afcdea;
+}
+
 .photo:nth-child(2)>div *:nth-child(5){
     background-color: black;
     color:white;
@@ -144,4 +172,7 @@ footer {
 }
 .SNS i {
     margin: 0 5px;
+}
+footer span {
+    border-right: 1px solid white;
 }
