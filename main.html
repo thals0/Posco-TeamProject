@@ -5,36 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="main.css">
     <script src="https://kit.fontawesome.com/8924a45e02.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <title>home</title>
+    <title>Home</title>
 </head>
 <body>
     <header>
-        <button class="continent" onclick="display('list1')">SouthAmerica</button>
-            <ul id="list1" style="display: none">
-                <li><a href="./brazil.html">Brazil</a></li>
+        <div class="m-3">
+            <a href="./main.html"><i class="fa-solid fa-house"></i></a>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                SouthAmerica
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="./brazil.html">Brazil</a></li>
+                <li><a class="dropdown-item" href="./main.html">나라2</a></li>
+                <li><a class="dropdown-item" href="#">나라3</a></li>
             </ul>
-        <button class="continent" onclick="display('list2')">NorthAmerica</button>
-            <ul id="list2" style="display: none">
-                <li><a href="./canada.html">Canada</a></li>
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                NorthAmerica
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="./canada.html">Canada</a></li>
+                <li><a class="dropdown-item" href="#">나라2</a></li>
+                <li><a class="dropdown-item" href="#">나라3</a></li>
             </ul>
-        <button class="continent" onclick="display('list3')">Europe</button>
-            <ul id="list3" style="display: none">
-                <li><a href="./Paris.html">France</a></li>
-                <li>Switzerland</li>
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Africa
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="./republicofsa.html">republicofsa</a></li>
+                <li><a class="dropdown-item" href="#">나라2</a></li>
+                <li><a class="dropdown-item" href="#">나라3</a></li>
             </ul>
-        <button class="continent" onclick="display('list4')">Africa</button>
-            <ul id="list4" style="display: none">
-                <li></li>
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Europe
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="./Paris.html">France</a></li>
+                <li><a class="dropdown-item" href="#">나라2</a></li>
+                <li><a class="dropdown-item" href="#">나라3</a></li>
             </ul>
-        <button class="continent" onclick="display('list5')">Asia</button>
-            <ul id="list5" style="display: none">
-                <li><a href="./korea.html">Korea</a></li>
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Oceania
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">나라1</a></li>
+                <li><a class="dropdown-item" href="#">나라2</a></li>
+                <li><a class="dropdown-item" href="#">나라3</a></li>
             </ul>
-        <button class="continent" onclick="display('list6')">Oceania</button>
-            <ul id="list6" style="display: none"></ul>
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Asia
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="./korea.html">Korea</a></li>
+                <li><a class="dropdown-item" href="./maldives.html">maldives</a></li>
+                <li><a class="dropdown-item" href="#">나라3</a></li>
+            </ul>
+        </div>
+        <div class="m-3">
+            &nbsp;
+        </div>
     </header>
     <script src="./header.js"></script>
     <div class="title">
@@ -43,56 +88,60 @@
     <div class="main">
         <div class="photo">
             <div>
-                <div>Canada</div>
-                <div>Yellowknife</div>
-                <div>llalal</div>
-                <button>예약하기</button>
+                <div>여행의 시작과 끝</div>
+                <div>세계 속 숨겨진</div>
+                <div>경험을 시작하세요! </div>
+                <button> 예약하기</button>
                 <button> > 더 알아보기</button>
             </div>
             <img src="https://d2ur7st6jjikze.cloudfront.net/offer_photos/8768/51304_medium_1466743911.jpg?1466743911" alt="">
         </div>
-        <!-- container: 각 나라 설명 풍경 사진 -->
+        <!-- main img -->
         <div class="photo">
             <img src="https://d2ur7st6jjikze.cloudfront.net/offer_photos/70973/441382_large_1576024612.jpg?1576024612" alt="">
             <div>
                 <div>Canada</div>
                 <div>Yellowknife</div>
-                <div>3</div>
+                <div>Aurora</div>
                 <button>예약하기</button>
                 <button> > 더 알아보기</button>
             </div>
         </div>
+        <!-- 1st img -->
         <div class="photo">
             <div>
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
+                <div>France</div>
+                <div>Paris</div>
+                <div>Disneyland</div>
                 <button>예약하기</button>
                 <button> > 더 알아보기</button>
             </div>
             <img src="https://d2ur7st6jjikze.cloudfront.net/offer_photos/35241/219633_large_1637554062.jpg?1637554062" alt="">
         </div>
+        <!-- 2nd img -->
         <div class="photo">
             <img src="https://d2ur7st6jjikze.cloudfront.net/offer_photos/26261/161720_medium_1525757908.jpg?1525757908" alt="">
             <div>
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
+                <div>Africa</div>
+                <div>Republic of sa</div>
+                <div>A variety of animals</div>
                 <button>예약하기</button>
                 <button> > 더 알아보기</button>
             </div>
         </div>
+        <!-- 3rd img -->
     </div>
     <footer>
         <div class="footer-left">
-            <div>개인정보처리방침</div>
-            <div>이용약관</div>
-            <div>사이트맵</div>
-            <div>환불 정책</div>
-            <div>회사 세부정보</div>
+            <div><span>개인정보처리방침&nbsp;&nbsp;&nbsp;</span></div>
+            <div><span>이용약관&nbsp;&nbsp;&nbsp;</span></div>
+            <div><span>사이트맵&nbsp;&nbsp;&nbsp;</span></div>
+            <div><span>환불 정책&nbsp;&nbsp;&nbsp;</span></div>
+            <div><span>회사 세부정보&nbsp;&nbsp;&nbsp;</span></div>
         </div>
         <div class="footer-right">
-            <div>한국어(KR) KRW</div>
+            <div><span>한국어(KR)&nbsp;&nbsp;&nbsp;</span></div>
+            <div><span>KRW&nbsp;&nbsp;&nbsp;</span></div>
             <div class="SNS">
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-twitter"></i>
@@ -100,5 +149,10 @@
             </div>
         </div>
     </footer>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+    ></script>   
 </body>
 </html>
