@@ -1,0 +1,79 @@
+div{
+    border: 1px solid;
+    margin: 8px 12px;
+}
+header{
+    /* display: flex; */
+    justify-content: space-evenly;
+    border: 1px solid;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+    border: 1px solid;
+}
+.continent{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+}
+.photo{
+    text-align: center;
+    line-height: 300px;
+    min-height: 300px;
+}
+h2{
+    text-align: center;
+}
+.accommodation{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.type img{
+    /* width: 150px; */
+    height: 150px;
+    width: 20%;
+    /* margin: 0 auto; */
+}
+
+.attribute>ul{
+    list-style: none;
+}
+
+ul{
+    padding-left: 0;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer ul{
+    list-style: none;
+}
+.plus{
+    display: flex;
+}
+.plus2{
+    display: flex;
+}
+
+.K{
+    display: flex;
+}
+.SNS{
+    display: flex;
+}
+.plus li{
+    margin: 4px;
+    font-size: small;
+}
+.plus2 li{
+    margin: 4px;
+    font-size: small;
+}
